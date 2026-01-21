@@ -1,5 +1,5 @@
 # This section installs and loads the tidyverse package.
-# It also reads the data set chosen into R for analysis
+# It also reads the data set chosen into R for analysis.
 
 install.packages("tidyverse")
 library(tidyverse)
@@ -214,3 +214,4 @@ stargazer(
   covariate.labels = c("Danceability", "Energy", "Valence", "Tempo"),
   digits=3
 )
+
